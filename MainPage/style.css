@@ -1,0 +1,53 @@
+header {
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Title {
+    font-size: 16px;
+}
+section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-image: url('./images/main.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.Main {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.Official_Instagram {
+    font-size: 14px;
+    color: navy;
+}
+
+.Center {
+    width: 100px;
+    height: 25px;
+    border: 1px solid white;
+    margin-top: 1rem;
+    padding: .3rem;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    transition: all .5s;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.Center:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}

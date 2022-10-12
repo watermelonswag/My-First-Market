@@ -4,8 +4,38 @@ header {
 }
 
 .Title {
-    font-size: 16px;
+    font-size: 12px;
 }
+
+@media(min-width: 640px) {
+    .Title { font-size: 14px;}
+}
+
+@media(min-width: 768px) {
+    .Title {font-size: 16px;}
+}
+
+@media(min-width: 1024px) {
+    .Title {font-size: 18px;}
+}
+
+.Period {
+    font-size: 22px;
+}
+
+@media(min-width: 640px) {
+    .Period { font-size: 26px; }
+}
+
+@media(min-width: 768px) {
+    .Period { font-size: 30px; }
+}
+
+@media(min-width: 1024px) {
+    .Period { font-size: 34px; }
+}
+
+
 section {
     display: flex;
     width: 100%;
@@ -21,7 +51,6 @@ body {
 }
 
 .Main {
-    font-size: 30px;
     font-weight: bold;
     padding: 50px;
 }

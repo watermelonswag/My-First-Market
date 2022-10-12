@@ -27,11 +27,11 @@ section {
     align-content: center;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
     section {
         display: flex;
         width: 100%;
-        height: 150px;
+        height: 200px;
         justify-content: center;
         align-content: center;
     }
@@ -66,17 +66,33 @@ body {
 }
 
 .Center {
-    width: 100px;
-    height: 25px;
+    width: 150px;
+    height: 30px;
     border: 1px solid white;
     padding: .3rem;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     outline: none;
     transition: all .5s;
     cursor: pointer;
     text-align: center;
     margin: auto;
+}
+
+@media screen and (max-width:767px) {
+    .Center {
+        width: 100px;
+        height: 25px;
+        border: 1px solid white;
+        padding: .3rem;
+        font-size: 14px;
+        color: white;
+        outline: none;
+        transition: all .5s;
+        cursor: pointer;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 .Center:hover {

@@ -7,7 +7,7 @@ header {
     font-size: 18px;
 }
 
-@media(min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .Title { font-size: 22px;}
 }
 
@@ -15,7 +15,7 @@ header {
     font-size: 24px;
 }
 
-@media(min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .Period { font-size: 30px;}
 }
 
@@ -59,7 +59,6 @@ body {
     width: 100px;
     height: 25px;
     border: 1px solid white;
-    margin-top: 1rem;
     padding: .3rem;
     font-size: 16px;
     color: white;
@@ -68,6 +67,22 @@ body {
     cursor: pointer;
     text-align: center;
     margin: auto;
+}
+
+@media screen and (max-width: 376px) {
+    .Center {
+        width: 100px;
+        height: 10px;
+        border: 1px solid white;
+        padding: .3rem;
+        font-size: 16px;
+        color: white;
+        outline: none;
+        transition: all .5s;
+        cursor: pointer;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 .Center:hover {

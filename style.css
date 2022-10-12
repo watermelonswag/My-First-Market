@@ -4,19 +4,19 @@ header {
 }
 
 .Title {
-    font-size: 12px;
+    font-size: 8px;
 }
 
 @media(min-width: 640px) {
-    .Title { font-size: 14px;}
+    .Title { font-size: 10px;}
 }
 
 @media(min-width: 768px) {
-    .Title {font-size: 16px;}
+    .Title {font-size: 12px;}
 }
 
-@media(min-width: 1024px) {
-    .Title {font-size: 18px;}
+@media(min-width: 1000px) {
+    .Title {font-size: 20px;}
 }
 
 .Period {
@@ -24,15 +24,15 @@ header {
 }
 
 @media(min-width: 640px) {
-    .Period { font-size: 18px; }
+    .Period { font-size: 12px; }
 }
 
 @media(min-width: 768px) {
-    .Period { font-size: 30px; }
+    .Period { font-size: 16px; }
 }
 
-@media(min-width: 1024px) {
-    .Period { font-size: 34px; }
+@media(min-width: 1000px) {
+    .Period { font-size: 30px; }
 }
 
 

@@ -4,37 +4,12 @@ header {
 }
 
 .Title {
-    font-size: 8px;
-}
-
-@media(min-width: 640px) {
-    .Title { font-size: 10px;}
-}
-
-@media(min-width: 768px) {
-    .Title {font-size: 12px;}
-}
-
-@media(min-width: 1000px) {
-    .Title {font-size: 20px;}
+    font-size: 12px;
 }
 
 .Period {
-    font-size: 10px;
+    font-size: 14px;
 }
-
-@media(min-width: 640px) {
-    .Period { font-size: 12px; }
-}
-
-@media(min-width: 768px) {
-    .Period { font-size: 16px; }
-}
-
-@media(min-width: 1000px) {
-    .Period { font-size: 30px; }
-}
-
 
 section {
     display: flex;

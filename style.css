@@ -28,13 +28,19 @@ section {
 }
 
 body {
-    background-image: url('./images/main\(mobile\).png');
+    background-image: url('./images/main.png');
     background-size: cover;
     text-align: center;
 }
 
-@media(mix-width: 800px) {
-    .body { background-image: url('./images/main.png');
+@media screen and (max-width:1023px) {
+    body {background-image: url('./images/main\(tablet\).png');
+        background-size: cover;
+        text-align: center;}
+}
+    
+@media screen and (max-width:767px) {
+    body {background-image: url('./images/main\(mobile\).png');
         background-size: cover;
         text-align: center;}
 }

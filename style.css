@@ -27,6 +27,16 @@ section {
     align-content: center;
 }
 
+@media screen and (max-width: 376px) {
+    section {
+        display: flex;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
 body {
     background-image: url('./images/main.png');
     background-size: cover;
@@ -67,22 +77,6 @@ body {
     cursor: pointer;
     text-align: center;
     margin: auto;
-}
-
-@media screen and (max-width: 376px) {
-    .Center {
-        width: 100px;
-        height: 10px;
-        border: 1px solid white;
-        padding: .3rem;
-        font-size: 16px;
-        color: white;
-        outline: none;
-        transition: all .5s;
-        cursor: pointer;
-        text-align: center;
-        margin: auto;
-    }
 }
 
 .Center:hover {
